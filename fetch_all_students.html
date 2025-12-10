@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View All Students</title>
+    <style>
+        body {
+            background-color: #2c2c2c;
+            color: #f5f5f5;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            background-color: #3c3c3c;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        h1 {
+            color: #ffcc00;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #f5f5f5;
+        }
+        th {
+            background-color: #ffcc00;
+            color: #2c2c2c;
+        }
+        td {
+            text-align: center;
+        }
+        .back-button {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .back-button a {
+            text-decoration: none;
+            color: #ffcc00;
+            font-weight: bold;
+        }
+        #getstudents {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #ffcc00;
+            color: #2c2c2c;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            text-align: center;
+        }
+        #getstudents:hover {
+            background-color: #e6b800;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>All Students</h1>
+        <button id="getstudents">Load Students</button>
+        <table>
+            <thead>
+                <tr>
+                    <th>Student ID</th>
+                    <th>Name</th>
+                    <th>Class</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody id="studentTable">
+                <!-- Data will be loaded dynamically -->
+            </tbody>
+        </table>
+        <div class="back-button">
+            <a href="index.html">Back to Home</a>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

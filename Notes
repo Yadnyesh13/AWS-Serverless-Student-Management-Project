@@ -1,0 +1,36 @@
+###Create IAM Role
+  1--Lambda>>DynameDB Full Access
+
+i
+###Create Dynamodb Table:
+  1--Table name: studentData.   Complate 
+  2--PartitionKey: studentid.   Complate 
+
+
+###Lambda Function
+  create 2 python3 functions:
+  --name1: getStudentData
+  --name2: insertStudentData
+
+###API Gateway
+  1--create apiGatewayName = student
+  2--create the function GET and POST and check them
+  3--Deploy at "/" and create a new stack named "prod"
+  4--configure CORS  > enable GET and POST
+  5--copy stack url to script.js
+
+###Create S3 bucket
+  1--Copy 4 files (index.html, add_student.html, fetch_all_students.html & scripts.html)
+  2--Static WebSite
+  3--Permission >> Bucket Policy
+    = PolicyGenerator > 
+      PolicyType "S3 BucPol" > 
+      Allow > 
+      Principal "*" > 
+      Action "GetObject" > 
+      PasteARN > 
+      AddStatement > 
+      GeneratePolicy > 
+      Append "bucket_name/*"
+  4--CORS Copy
+
