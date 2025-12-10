@@ -57,14 +57,14 @@ This project demonstrates a typical serverless setup to store and read student r
 
 Below are the screenshots included in the `Screen_shots/` folder. Each image is shown with its filename as a caption.
 
+### Website_hosting.png
+![Website hosting screenshot](Screen_shots/Website_hosting.png)
+
+### S3Bucket.png
+![S3 bucket screenshot](Screen_shots/S3Bucket.png)
+
 ### API_Gateway.png
 ![API Gateway screenshot](Screen_shots/API_Gateway.png)
-
-### Cloud_Watch1.png
-![CloudWatch 1 screenshot](Screen_shots/Cloud_Watch1.png)
-
-### Cloud_Watch2.png
-![CloudWatch 2 screenshot](Screen_shots/Cloud_Watch2.png)
 
 ### DynamoDB_Table.png
 ![DynamoDB table screenshot](Screen_shots/DynamoDB_Table.png)
@@ -75,11 +75,14 @@ Below are the screenshots included in the `Screen_shots/` folder. Each image is 
 ### Lambda_Function2.png
 ![Lambda function 2 screenshot](Screen_shots/Lambda_Function2.png)
 
-### S3Bucket.png
-![S3 bucket screenshot](Screen_shots/S3Bucket.png)
-
 ### Website_hosting.png
 ![Website hosting screenshot](Screen_shots/Website_hosting.png)
+
+### Cloud_Watch1.png
+![CloudWatch 1 screenshot](Screen_shots/Cloud_Watch1.png)
+
+### Cloud_Watch2.png
+![CloudWatch 2 screenshot](Screen_shots/Cloud_Watch2.png)
 
 ---
 
